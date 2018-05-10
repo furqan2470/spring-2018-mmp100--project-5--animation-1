@@ -4,45 +4,35 @@
    }
 
    100% {
-      background-position: -500px 0;
+      background-position: -12000px 0;
    }
 }
-
 @keyframes row2 {
    0% {
-      background-position: 0 -125px;
+      background-position: -400 0;
    }
 
    100% {
-      background-position: -500px -125px;
+      background-position: -12000px -400;
    }
 }
-
 @keyframes row3 {
    0% {
-      background-position: 0 -250px;
+      background-position: -800  0;
    }
 
    100% {
-      background-position: -500px -250px;
+      background-position: -12000px -800;
    }
 }
 
-@keyframes row4 {
-   0% {
-      background-position: 0 -375px;
-   }
 
-   100% {
-      background-position: -500px -375px;
-   }
-}
 
-#run {
-   animation: row1 1s steps(4) none,
-      row2 1s steps(4) 1s none,
-      row3 1s steps(4) 2s none,
+#animation {
+   animation: row1 3s steps(30) none;
+      row2 3s steps(30) 3s none,
+      row3 3s steps(30) 6s none;
    width: 400px;
    height: 400px;
-    background-image: url('../img/sprite.png');
+   background-image: url('../img/sprite.png');
 }
