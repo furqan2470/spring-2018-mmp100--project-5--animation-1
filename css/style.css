@@ -1,0 +1,39 @@
+@keyframes row1 {
+   0% {
+      background-position: 0 0;
+   }
+
+   100% {
+      background-position: -400px 0;
+   }
+}
+
+@keyframes row2 {
+   0% {
+      background-position: 0 -75px;
+   }
+
+   100% {
+      background-position: -400px -75px;
+   }
+}
+
+@keyframes row3 {
+   0% {
+      background-position: 0 -200px;
+   }
+
+   100% {
+      background-position: -400px -200px;
+   }
+}
+
+
+#run {
+   animation: row1 1s steps(30) none,
+      row2 1s steps(30) 1s none,
+      row3 1s steps(30) 2s none,
+   width: 100px;
+   height: 75px;
+   background-image: url('https://cdn.tutsplus.com/gamedev/uploads/2013/11/spritesheet_numbered.png');
+}
