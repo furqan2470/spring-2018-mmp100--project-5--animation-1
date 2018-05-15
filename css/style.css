@@ -29,7 +29,7 @@
 }
 
 
-#run {
+#animation {
    animation:
       1s steps(30) 0s row1,
       1s steps(30) 1s row2,
