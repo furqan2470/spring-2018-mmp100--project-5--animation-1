@@ -4,7 +4,7 @@
    }
 
    100% {
-      background-position: -1200px 0;
+      background-position: -5600px 0;
    }
  }
  @keyframes row2 {
@@ -13,7 +13,7 @@
    }
 
    100% {
-      background-position: -1200px -300px;
+      background-position: -5600px -300px;
     }
   }
   @keyframes row3 {
@@ -22,7 +22,7 @@
    }
 
    100% {
-      background-position: -1200px -600px;
+      background-position: -5600px -600px;
    }
 }
    #run {
