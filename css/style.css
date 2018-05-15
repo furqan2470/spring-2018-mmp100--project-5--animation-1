@@ -4,38 +4,37 @@
    }
 
    100% {
-      background-position: 12000px 0;
+      background-position: -12000px 0;
    }
 }
 
 @keyframes row2 {
    0% {
-      background-position: 0 ;
+      background-position: 0 -300px;
    }
 
    100% {
-      background-position: ;
+      background-position: -12000px -300px;
    }
 }
 
 @keyframes row3 {
    0% {
-      background-position: ;
+      background-position: 0 -600px;
    }
 
    100% {
-      background-position: ;
+      background-position: -12000px -600px;
    }
 }
 
 
-#animation {
+#run {
    animation:
       1s steps(30) 0s row1,
       1s steps(30) 1s row2,
       1s steps(30) 2s row3;
-   width: 12000px;
-   height: 900px;
-
-   background-image: url('https://cdn.tutsplus.com/gamedev/uploads/2013/11/spritesheet_numbered.png');
+   width: 400px;
+   height: 300px;
+   background-image: url('../img/sprite.png');
 }
