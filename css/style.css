@@ -24,12 +24,12 @@
    100% {
       background-position: -1200px -600px;
    }
-
+}
    #run {
       animation: row1 3s steps(30) none,
          row2 4s steps(30) 3s none,
          row3 4s steps(30) 7s none;
       width: 400px;
       height: 300px;
-      background-image: ('sprite.png');
+      background-image: url('../img/sprite.png');
     }
