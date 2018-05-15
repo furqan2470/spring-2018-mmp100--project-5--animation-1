@@ -30,12 +30,13 @@
 
 
 
-#run {
-   animation: row1 2s steps(30) none,
-      row2 2s steps(30) 2s none,
-      row3 2s steps(30) 4s none;
+#animation {
+   animation: row1 1.5s steps(30) none,
+      row2 1.5s steps(30) 1.5s none,
+      row3 1.5s steps(30) 3s none;
 
    width: 300px;
    height: 300px;
    background-image: url('../img/sprite.png');
+  animation-iteration-count: infinite;
 }
