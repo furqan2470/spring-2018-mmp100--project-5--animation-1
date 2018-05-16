@@ -1,16 +1,16 @@
 @keyframes row1 {
    0% {
-      background-position: 0px 0px;
+      background-position: -0px 0px;
    }
 
    100% {
-      background-position: -17500px 0px;
+      background-position: -0px 0px;
    }
 }
 
 @keyframes row2 {
    0% {
-      background-position: 0 -500px;
+      background-position: -0px -500px;
    }
 
    100% {
@@ -20,7 +20,7 @@
 
 @keyframes row3 {
    0% {
-      background-position: 0 -1000px;
+      background-position: -0px -1500px;
    }
 
    100% {
@@ -30,7 +30,7 @@
 
 @keyframes row4 {
    0% {
-      background-position: 0px -1500px;
+      background-position: 0px -2000px;
    }
 
    100% {
@@ -39,12 +39,13 @@
 }
 
 #animation {
-   animation:
-     1s steps(35) 0 row1,
-     1s steps(35) 1s row2,
-     1s steps(35) 2s row3,
-     1s steps(35) 3s row4;
+   animation: row1 5s steps(35)1s none,
+      row2 5s steps(35) 2s none,
+      row3 5s steps(35) 3s none,
+      row4 5s steps(35) 4s none;
    width: 500px;
    height: 500px;
    background-image: url('../img/sprite.png');
-}
+
+
+}note this
