@@ -1,0 +1,38 @@
+@keyframes row1 {
+   0% {
+      background-position: 0 0;
+   }
+
+   100% {
+      background-position: -12000px 0;
+   }
+}
+@keyframes row2 {
+   0% {
+      background-position: 0 -400px;
+   }
+
+   100% {
+      background-position: -12000px -400px;
+   }
+}
+@keyframes row3 {
+   0% {
+      background-position: 0  -800px;
+   }
+
+   100% {
+      background-position: -12000px -800px;
+   }
+}
+
+
+
+#animation {
+   animation: row1 3s steps(30) none,
+      row2 3s steps(30) 3s none,
+      row3 3s steps(30) 6s none;
+   width: 400px;
+   height: 400px;
+   background-image: url('../img/sprite.png');
+}
