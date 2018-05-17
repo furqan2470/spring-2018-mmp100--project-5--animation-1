@@ -1,0 +1,40 @@
+
+    #animation {
+      width: 400px;
+      height: 400px;
+      
+      background-image: url("sprite.png");
+      animation: sprite 3s steps(20) none,
+       sprite2 3s steps(20) 3s none,
+       sprite3 3s steps(20) 3s none,
+       sprite4 3s steps(20) 3s ;
+    }
+ 
+    @keyframes sprite {
+     0% {
+       background-position: 0 0;
+     }
+    100% {
+      background-position: -1500px 0;
+      }
+      @keyframes sprite2 {
+     0% {
+       background-position: 0 -150px;
+     }
+    100% {
+      background-position: -1500px -150px;
+      }
+      @keyframes sprite3{
+     0% {
+       background-position: 0 -300px;
+     }
+    100% {
+      background-position: -1500px -350px;
+      }
+      @keyframes sprite4 {
+     0% {
+       background-position: 0 -450px;
+     }
+    100% {
+      background-position: -1500px -450px;
+      }
