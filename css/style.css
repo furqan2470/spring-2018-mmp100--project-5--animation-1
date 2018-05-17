@@ -4,7 +4,7 @@
    }
 
    100% {
-      background-position: -3750px 0;
+      background-position: -3500px 0;
    }
 }
 
@@ -28,8 +28,6 @@
    }
 }
 
-
-
 #run {
    animation: row1 2s steps(30) none,
       row2 2s steps(30) 2s none,
@@ -37,4 +35,5 @@
    width: 125px;
    height: 125px;
    background-image: url('../img/sprite.png');
+
 }
