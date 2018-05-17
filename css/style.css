@@ -29,9 +29,9 @@
 }
 
 #run {
-   animation: row1 10s steps(30) none,
-      row2 10s steps(30) 20s none,
-      row3 10s steps(30) 30s none;
+   animation: row1 15s steps(30) 0s none,
+      row2 15s steps(30) 15s none,
+      row3 15s steps(30) 30s none;
    width: 125px;
    height: 125px;
    background-image: url('../img/sprite.png');
