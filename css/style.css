@@ -4,13 +4,13 @@
    }
 
    100% {
-      background-position: -3500px 0;
+      background-position: -3750px 0;
    }
 }
 
 @keyframes row2 {
    0% {
-      background-position: -125 0px;
+      background-position: 0px -125px;
    }
 
    100% {
@@ -29,11 +29,12 @@
 }
 
 #run {
-   animation: row1 2s steps(30) none,
-      row2 2s steps(30) 2s none,
-      row3 2s steps(30) 4s none,
+   animation: row1 10s steps(30) none,
+      row2 10s steps(30) 20s none,
+      row3 10s steps(30) 30s none;
    width: 125px;
    height: 125px;
    background-image: url('../img/sprite.png');
    background-repeat: no-repeat;
+
 }
